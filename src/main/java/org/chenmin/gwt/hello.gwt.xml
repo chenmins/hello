@@ -3,6 +3,15 @@
 <module rename-to="hello">
   <inherits name="com.google.gwt.core.Core"/>
   <inherits name='com.axellience.vuegwt.VueGWT'/>
+  <inherits name='com.axellience.vueroutergwt.VueRouterGwt'/>
 
   <entry-point class='org.chenmin.gwt.client.Hello'/>
+
+  <inherits name="com.google.gwt.logging.Logging"/>
+  <set-property name="gwt.logging.logLevel" value="INFO"/>
+  <set-property name="gwt.logging.consoleHandler" value="ENABLED" />
+  <set-property name="gwt.logging.developmentModeHandler" value="DISABLED" />
+  <set-property name="gwt.logging.hasWidgetsHandler" value="DISABLED" />
+  <set-property name="gwt.logging.systemHandler" value="DISABLED" />
+  <set-property name="gwt.logging.simpleRemoteHandler" value="DISABLED" />
 </module>
