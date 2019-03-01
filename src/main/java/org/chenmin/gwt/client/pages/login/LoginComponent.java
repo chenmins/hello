@@ -1,4 +1,4 @@
-package org.chenmin.gwt.client.pages;
+package org.chenmin.gwt.client.pages.login;
 
 import com.axellience.vuegwt.core.annotations.component.Component;
 import com.axellience.vuegwt.core.annotations.component.Data;

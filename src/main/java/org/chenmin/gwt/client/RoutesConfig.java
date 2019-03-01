@@ -4,8 +4,8 @@ import com.axellience.vuegwt.core.client.component.options.CustomizeOptions;
 import com.axellience.vuegwt.core.client.component.options.VueComponentOptions;
 import com.axellience.vueroutergwt.client.RouterOptions;
 import com.axellience.vueroutergwt.client.VueRouter;
-import org.chenmin.gwt.client.pages.LoginComponentFactory;
-import org.chenmin.gwt.client.pages.MainComponentFactory;
+import org.chenmin.gwt.client.pages.login.LoginComponentFactory;
+import org.chenmin.gwt.client.pages.main.MainComponentFactory;
 
 public class RoutesConfig implements CustomizeOptions {
     @Override
