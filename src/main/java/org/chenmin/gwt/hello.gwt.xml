@@ -1,0 +1,8 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.0//EN"
+  "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module rename-to="hello">
+  <inherits name="com.google.gwt.core.Core"/>
+  <inherits name='com.axellience.vuegwt.VueGWT'/>
+
+  <entry-point class='org.chenmin.gwt.client.Hello'/>
+</module>
