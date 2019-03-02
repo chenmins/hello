@@ -4,6 +4,12 @@
   <inherits name="com.google.gwt.core.Core"/>
   <inherits name='com.axellience.vuegwt.VueGWT'/>
   <inherits name='com.axellience.vueroutergwt.VueRouterGwt'/>
+  <!-- inherit some Requestor API impl -->
+  <inherits name="io.reinert.requestor.RequestorByGDeferred"/>
+  <!-- inherit Requestor-GwtJackson integration -->
+  <inherits name="io.reinert.requestor.RequestorWithGwtJackson"/>
+  <!-- inherit Jquery -->
+  <inherits name="gwt.material.design.jquery.JQuery" />
 
   <entry-point class='org.chenmin.gwt.client.Hello'/>
 

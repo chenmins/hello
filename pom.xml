@@ -13,6 +13,11 @@
         <!-- Convenience property to set the GWT version -->
         <gwt.version>2.8.2</gwt.version>
         <vue-gwt.version>1.0-beta-9</vue-gwt.version>
+        <requestor.version>0.2.0</requestor.version>
+        <gdeferred.version>0.9.0</gdeferred.version>
+        <gwt-jackson.version>0.13.0</gwt-jackson.version>
+        <jackson.version>2.7.2</jackson.version>
+        <jquery.version>2.1.1</jquery.version>
         <!-- GWT needs at least java 1.7 -->
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -36,6 +41,41 @@
             <groupId>com.axellience</groupId>
             <artifactId>vue-router-gwt</artifactId>
             <version>${vue-gwt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.gwtmaterialdesign</groupId>
+            <artifactId>gwt-material-jquery</artifactId>
+            <version>${jquery.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.nmorel.gwtjackson</groupId>
+            <artifactId>gwt-jackson</artifactId>
+            <version>${gwt-jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.reinert.gdeferred</groupId>
+            <artifactId>gdeferred</artifactId>
+            <version>${gdeferred.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.reinert.requestor.impl</groupId>
+            <artifactId>requestor-gdeferred</artifactId>
+            <version>${requestor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.reinert.requestor.core</groupId>
+            <artifactId>requestor-api</artifactId>
+            <version>${requestor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.reinert.requestor.ext</groupId>
+            <artifactId>requestor-gwtjackson</artifactId>
+            <version>${requestor.version}</version>
         </dependency>
 
         <dependency>
