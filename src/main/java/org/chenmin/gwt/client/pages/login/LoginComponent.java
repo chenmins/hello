@@ -10,6 +10,8 @@ import com.axellience.vueroutergwt.client.VueRouter;
 import com.google.gwt.user.client.Cookies;
 import elemental2.dom.Event;
 import jsinterop.annotations.JsMethod;
+import org.chenmin.gwt.client.RoutesConfig;
+import org.chenmin.gwt.client.pages.main.MainComponentFactory;
 
 import java.util.Date;
 import java.util.logging.Logger;
@@ -50,7 +52,7 @@ public class LoginComponent implements IsVueComponent, VueRouteComponent, HasCre
                 Cookies.setCookie("password", password, expires, null, "/", false);
                 Cookies.setCookie("remember", remember?"0":"1", expires, null, "/", false);
             }
-            router.push("/Main");
+            router.push(RoutesConfig.BASE+MainComponentFactory.get().getComponentTagName());
         } else {
             event.preventDefault();
             //error
