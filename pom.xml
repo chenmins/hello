@@ -16,7 +16,7 @@
         <requestor.version>0.2.0</requestor.version>
         <gdeferred.version>0.9.0</gdeferred.version>
         <gwt-jackson.version>0.13.0</gwt-jackson.version>
-        <jackson.version>2.7.2</jackson.version>
+        <jackson.version>[2.9.10.8,)</jackson.version>
         <jquery.version>2.1.1</jquery.version>
         <!-- GWT needs at least java 1.7 -->
         <maven.compiler.source>1.8</maven.compiler.source>
