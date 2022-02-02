@@ -9,7 +9,7 @@ import org.chenmin.gwt.client.pages.*;
 public class Hello implements EntryPoint {
     @Override
     public void onModuleLoad() {
-        //    VueGWT.init();
+//            VueGWT.init();
         VueGWT.initWithoutVueLib();
         VueRouter.init();
 //        Vue.attach("#app",TestBtnFactory.get());
